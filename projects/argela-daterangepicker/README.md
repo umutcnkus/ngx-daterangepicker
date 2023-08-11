@@ -1,7 +1,7 @@
-ngx-daterangepicker
+argela-daterangepicker
 -------------------
 
-![Daterange Picker](https://raw.githubusercontent.com/evansmwendwa/ngx-daterangepicker/master/projects/ngx-daterangepicker/assets/screen-shot.png)
+![Daterange Picker](https://raw.githubusercontent.com/evansmwendwa/argela-daterangepicker/master/projects/argela-daterangepicker/assets/screen-shot.png)
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
@@ -13,9 +13,9 @@ I have not made efforts to test earlier versions of angular with version 3.x of 
 
 Use your preferred package manager
 ```
-npm install ngx-daterangepicker
-yarn add ngx-daterangepicker
-ng add ngx-daterangepicker
+npm install argela-daterangepicker
+yarn add argela-daterangepicker
+ng add argela-daterangepicker
 ```
 
 #### peerDependencies
@@ -46,7 +46,7 @@ Latest version does not require Bootstrap. You can also skip this and copy the c
 ```json
 {
   "styles": [
-    "node_modules/ngx-daterangepicker/assets/daterangepicker.css"
+    "node_modules/argela-daterangepicker/assets/daterangepicker.css"
   ],
   "scripts": [
     "node_modules/jquery/dist/jquery.min.js"
@@ -58,7 +58,7 @@ Latest version does not require Bootstrap. You can also skip this and copy the c
 Import the `Daterangepicker` module in your application module
 
 ``` javascript
-import { Daterangepicker } from 'ngx-daterangepicker';
+import { Daterangepicker } from 'argela-daterangepicker';
 
 @NgModule({
     imports: [Daterangepicker]
@@ -109,7 +109,7 @@ export class AppComponent {
 You can pass global settings that can be overloaded by the `options` object in the daterangepicker instances. Use the `DaterangepickerConfig` service to do so. The service provider is set in the daterangepicker module.
 
 ``` javascript
-import { DaterangepickerConfig } from 'ngx-daterangepicker';
+import { DaterangepickerConfig } from 'argela-daterangepicker';
 
 @Component({
     selector:'my-app',
@@ -132,7 +132,7 @@ You can programmatically update the `startDate` and `endDate` in the picker usin
 
 ``` javascript
 import { Component, AfterViewInit, ViewChild  } from '@angular/core';
-import { DaterangePickerComponent } from 'ngx-daterangepicker';
+import { DaterangePickerComponent } from 'argela-daterangepicker';
 
 @Component({
     selector:'my-app',
@@ -238,15 +238,15 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Build Package
 
-Run `ng build ngx-daterangepicker` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build argela-daterangepicker` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Publishing
 
-After building your library with `ng build ngx-daterangepicker`, go to the dist folder `cd dist/ngx-daterangepicker` and run `npm publish`.
+After building your library with `ng build argela-daterangepicker`, go to the dist folder `cd dist/argela-daterangepicker` and run `npm publish`.
 
 ## Running unit tests
 
-Run `ng test ngx-daterangepicker` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test argela-daterangepicker` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Further help
 

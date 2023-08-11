@@ -114,30 +114,30 @@
         }
       }
     },
-    "ngx-daterangepicker": {
+    "argela-daterangepicker": {
       "projectType": "library",
-      "root": "projects/ngx-daterangepicker",
-      "sourceRoot": "projects/ngx-daterangepicker/src",
+      "root": "projects/argela-daterangepicker",
+      "sourceRoot": "projects/argela-daterangepicker/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ngx-daterangepicker/tsconfig.lib.json",
-            "project": "projects/ngx-daterangepicker/ng-package.json"
+            "tsConfig": "projects/argela-daterangepicker/tsconfig.lib.json",
+            "project": "projects/argela-daterangepicker/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-daterangepicker/tsconfig.lib.prod.json"
+              "tsConfig": "projects/argela-daterangepicker/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-daterangepicker/src/test.ts",
-            "tsConfig": "projects/ngx-daterangepicker/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-daterangepicker/karma.conf.js"
+            "main": "projects/argela-daterangepicker/src/test.ts",
+            "tsConfig": "projects/argela-daterangepicker/tsconfig.spec.json",
+            "karmaConfig": "projects/argela-daterangepicker/karma.conf.js"
           }
         }
       }
